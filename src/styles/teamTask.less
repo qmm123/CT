@@ -1,0 +1,153 @@
+@r:50rem;
+
+body {
+  margin:0;
+}
+a {
+	text-decoration :none;
+}
+
+img {
+	vertical-align: top;
+}
+
+::-webkit-input-placeholder{
+	color: #fff;
+}
+
+ul,li{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+
+/*头部区域*/
+html,body{
+	overflow: hidden;
+}
+#teamTask {
+	#header {
+		height: 84/@r;
+		background: #000;
+		position:relative;
+		text-align: center;
+		color: #fff;
+		line-height: 84/@r;
+		font-size: 34/@r;
+		a{
+			position:absolute;
+			top:0;
+			width:133/@r;
+			height:84/@r;
+			color: #fff;
+			text-align:center;
+			line-height: 84/@r;
+			font-size:30/@r;
+			.glyphicon-menu-left{
+				font-size:39/@r;
+				vertical-align:middle;
+				margin-top: -2px;
+			}
+		}
+		.back{
+			left: 0;
+		}
+		.option{
+			height: 104/@r;
+			right: 0;
+			.glyphicon-option-horizontal{
+				font-size:46/@r;
+				vertical-align: middle;
+			}
+		}
+	}
+	#tasked{
+		width: 690/@r;
+		height: 224/@r;
+		margin: 0 auto;
+		text-align: center;
+		.square{
+			width: 100/@r;
+			height: 100/@r;
+			border-radius: 50%;
+			background: #b0d3f6;
+			margin: 52/@r auto 0;
+			text-align: center;
+			line-height: 100/@r;
+			.glyphicon-ok{
+				color: #fff;
+			}
+		}
+		.text{
+			font-size: 28/@r;
+			font-weight: bold;
+			line-height: 74/@r;
+		}
+	}
+	#choice{
+		width: 638/@r;
+		margin: 26/@r auto 0;
+		font-size: 26/@r;
+		color: #fff;
+		padding: 20/@r 18/@r 20/@r 38/@r;
+		background: #124191;
+		border-radius: 5/@r;
+		font-weight: bold;
+		box-sizing: border-box;
+		.glyphicon-triangle-bottom{
+			float: right;
+		}
+	}
+	#list{
+		width: 638/@r;
+		height: 166/@r;
+		border: 1px solid #eee;
+		border-top: none;
+		margin: 0 auto;
+		padding-top: 26/@r;
+		box-sizing: border-box;
+		ul{
+			.item{
+				font-size: 24/@r;
+				color: #68717a;
+				line-height: 58/@r;
+				padding-left: 46/@r;
+			}
+		}
+	}
+	#upload{
+		.photo{
+			width: 222/@r;
+			height: 222/@r;
+			background: #f3f3f3;
+			position: relative;
+			margin: 48/@r auto 56/@r;
+			.glyphicon-camera{
+				position: absolute;
+				left: 48/@r;
+				top: 50/@r;
+				color: #d1d1d1;
+				font-size: 126/@r;
+			}
+		}
+		.btn{
+			width: 518/@r;
+			margin: 0 auto;		
+			text-align: center;
+			background: #124191;
+			margin-bottom: 62/@r;
+			border-radius: 5/@r;
+			a{
+				color: #fff;
+				font-size: 32/@r;
+				line-height: 80/@r;
+			}
+		}
+	}
+	#footer{
+		width: 750/@r;
+		height: 244/@r;
+		background: url("../images/myTeambg.png");
+		background-size: cover;
+	}
+}

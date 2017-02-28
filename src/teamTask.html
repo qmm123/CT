@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="styles/css/bootstrap.css">
+	<link rel="stylesheet" href="styles/teamTask.css">
+	<script>
+		var html = document.documentElement;
+		var hWidth = html.getBoundingClientRect().width;
+		html.style.fontSize = hWidth/15 + "px";
+		console.log(hWidth)
+	</script>
+</head>
+<body>
+	<div id="teamTask">
+		<!--头部区域-->
+		<header id="header">
+			<a href="javascript:;" class="back"><span class="glyphicon glyphicon-menu-left"></span>返回</a>我的团队任务<a class="option"><span class="glyphicon glyphicon-option-horizontal"></span></a>
+		</header>
+		<!--/头部区域-->
+		<!--已完成任务-->
+		<section id="tasked">
+			<div class="square"><span class="glyphicon glyphicon-ok"></span></div>
+			<div class="text">已完成任务：5个/20个</div>
+		</section>
+		<!--/已完成任务-->
+		<!--选择签到任务-->
+		<section id="choice">选择签到任务<span class="glyphicon glyphicon-triangle-bottom"></span></section>
+		<!--/选择签到任务-->
+		<!--list-->
+		<section id="list">
+			<ul>
+				<li class="item">1.张荣发基金会（2人合影）</li>
+				<li class="item">2.中正纪念堂音乐厅（10人合影）</li>
+			</ul>
+		</section>
+		<!--/list-->
+		<!--上传照片签到-->
+		<section id="upload">
+			<div class="photo"><span class="glyphicon glyphicon-camera"></span></div>
+			<div class="btn"><a href="javascript">上传照片签到</a></div>
+		</section>
+		<!--/上传照片签到-->
+		<!--底部-->
+		<footer id="footer"></footer>
+		<!--/底部-->
+	</div>
+
+</body>
+</html>
+
+
+
+
+
+
