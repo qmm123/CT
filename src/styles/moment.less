@@ -1,0 +1,127 @@
+@r:50rem;
+
+body {
+  margin:0;
+}
+a {
+	text-decoration :none;
+}
+
+img {
+	vertical-align: top;
+}
+
+::-webkit-input-placeholder{
+	color: #fff;
+}
+
+ul,li{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+
+/*头部区域*/
+
+#moment {
+	#header {
+		height: 84/@r;
+		background: #000;
+		position:relative;
+		text-align: center;
+		color: #fff;
+		line-height: 84/@r;
+		font-size: 34/@r;
+		a{
+			position:absolute;
+			top:0;
+			width:133/@r;
+			height:84/@r;
+			color: #fff;
+			text-align:center;
+			line-height: 84/@r;
+			font-size:30/@r;
+			.glyphicon-menu-left{
+				font-size:39/@r;
+				vertical-align:middle;
+				margin-top: -2px;
+			}
+		}
+		.back{
+			left: 0;
+		}
+		.option{
+			height: 104/@r;
+			right: 0;
+			.glyphicon-option-horizontal{
+				font-size:46/@r;
+				vertical-align: middle;
+			}
+		}
+	}
+	#nav{
+		width: 690/@r;
+		margin: 0 auto;
+		ul{
+			li{
+				padding: 26/@r 16/@r;
+				float: left;
+				a{
+					display: block;
+					width: 144/@r;
+					height: 60/@r;
+					text-align: center;
+					line-height: 60/@r;
+					color: #68717a;
+					font-size: 28/@r;
+				}
+				.active{
+					background: #e5e5e5;
+					border-radius: 30/@r;
+				}
+			}
+			li:last-child{
+				padding-right: 0;
+			}
+		}
+		.tab-box{
+			.tab_con{
+				display: none;
+				ul{
+					li{
+						display: inline-block;
+						width: 220/@r;
+						padding: 0;
+						margin-right: 8/@r;
+						div{
+							margin-bottom: 8/@r;
+						}
+					
+					}
+					li:nth-child(1){
+						img{
+							width: 220/@r;
+							display: block;
+						}
+					}
+					li:nth-child(2){
+						width: 224/@r;
+						img{
+							width: 224/@r;
+						}
+					}
+					li:nth-child(3){
+						width: 223/@r;
+						margin-right: 0;
+						img{
+							width: 223/@r;
+						}
+					}
+				}
+			}
+			.tab_con:first-child{
+				display: block;
+			}
+		}
+	}
+}

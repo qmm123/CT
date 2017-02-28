@@ -1,0 +1,149 @@
+@r:50rem;
+
+body {
+  margin:0;
+}
+a {
+	text-decoration :none;
+}
+
+img {
+	vertical-align: top;
+}
+
+::-webkit-input-placeholder{
+	color: #fff;
+}
+
+ul,li{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+
+/*头部区域*/
+
+#CT {
+	#header {
+		height: 84/@r;
+		background: #000;
+		position:relative;
+		text-align: center;
+		color: #fff;
+		line-height: 84/@r;
+		font-size: 34/@r;
+		a{
+			position:absolute;
+			top:0;
+			width:133/@r;
+			height:84/@r;
+			color: #fff;
+			text-align:center;
+			line-height: 84/@r;
+			font-size:30/@r;
+			.glyphicon-menu-left{
+				font-size:39/@r;
+				vertical-align:middle;
+				margin-top: -2px;
+			}
+		}
+		.back{
+			left: 0;
+		}
+		.option{
+			height: 104/@r;
+			right: 0;
+			.glyphicon-option-horizontal{
+				font-size:46/@r;
+				vertical-align: middle;
+			}
+		}
+	}
+	#banner {
+		width: 750/@r;
+		height: 1207/@r;
+		position: relative;
+		background: url("../images/banner.jpg");
+		background-size: cover;
+		.text{
+			float: right;
+			margin-right: 38/@r;
+			padding-top: 46/@r;
+			font-size: 24/@r;
+			div{
+				width: 202/@r;
+				height: 64/@r;
+				float: left;
+				border: 1px solid #fff;
+				box-sizing: border-box;
+				border-radius: 30/@r;
+				text-align: center;
+				line-height: 64/@r;
+				a{
+					span{
+						color: #c6d5e4;
+					}
+				}
+			}
+			.game{
+				margin-right: 15/@r;
+				.glyphicon-list-alt{
+					font-size: 34/@r;
+					margin-top: 5/@r;
+					margin-right: 16/@r;
+					color: #fff;
+				}
+			}
+			.rank{
+				.glyphicon-signal{
+					font-size: 34/@r;
+					margin-right: 16/@r;
+					color: #fff;
+					margin-top: 5/@r;
+				}
+			}
+		}
+
+		.task{
+			width: 158/@r;
+			height: 138/@r;
+			position: absolute;
+			top: 420/@r;
+			left: 126/@r;
+			img{
+				width: 166/@r;
+			}
+			span{
+				position: absolute;
+				color: #fff;
+				font-size: 28/@r;
+				top: 36/@r;
+				left: 21/@r;
+			}
+		}
+		.sign{
+			width: 336/@r;
+			height: 88/@r;
+			position: absolute;
+			left: 207/@r;
+			bottom: 100/@r;
+			background: #ffe31f;
+			border-radius: 35/@r;
+			padding-left: 122/@r;
+			box-sizing: border-box;
+			line-height: 88/@r;
+			font-size: 35/@r;
+			font-weight: bold;
+			letter-spacing: 3/@r;
+			a{
+				color: #bd5b45;
+			}
+			span{
+				font-size: 70/@r;
+				position: absolute;
+				top: -5/@r;
+				left: 64/@r;
+			}
+		}
+	}
+}
