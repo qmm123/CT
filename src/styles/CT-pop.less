@@ -84,7 +84,7 @@ ul,li{
 		color: #fff;
 		line-height: 60/@r;
 		.title{
-			margin-bottom: 30/@r;
+			margin-bottom: 24/@r;
 			.circle{
 			display: inline-block;
 			width: 19/@r;
@@ -109,6 +109,41 @@ ul,li{
 			.glyphicon-menu-right{
 				float: right;
 				margin: 18/@r 28/@r 0 0;
+			}
+		}
+		.content{
+			width: 672/@r;
+			height: 264/@r;
+			padding: 32/@r 27/@r 28/@r 27/@r;
+			box-sizing: border-box;
+			border: 1px solid #eaedee;
+			position: relative;
+			ul{
+				height: 100%;
+			}
+			li{
+				width: 118/@r;
+				float: left;
+				text-align: center;
+				line-height: 48/@r;
+				a{
+					font-size: 24/@r;
+					color: #68717a;
+				
+				}
+			}
+			span{
+				position: absolute;
+				width: 0;
+				height: 0;
+				border: 28/@r solid transparent;
+				border-bottom-color: #eaedee;
+				top: -50/@r;;
+				right: 26/@r;
+			}
+			span:nth-of-type(2){
+				top: -45/@r;
+				border-bottom-color: #fff;
 			}
 		}
 		.list{
