@@ -1,0 +1,200 @@
+@r:50rem;
+
+body {
+  margin:0;
+}
+a {
+	text-decoration :none;
+}
+
+img {
+	vertical-align: top;
+}
+
+::-webkit-input-placeholder{
+	color: #fff;
+}
+
+ul,li{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+
+/*头部区域*/
+
+#myTeam {
+	#header {
+		height: 84/@r;
+		background: #000;
+		position:relative;
+		text-align: center;
+		color: #fff;
+		line-height: 84/@r;
+		font-size: 34/@r;
+		a{
+			position:absolute;
+			top:0;
+			width:133/@r;
+			height:84/@r;
+			color: #fff;
+			text-align:center;
+			line-height: 84/@r;
+			font-size:30/@r;
+			.glyphicon-menu-left{
+				font-size:39/@r;
+				vertical-align:middle;
+				margin-top: -2px;
+			}
+		}
+		.back{
+			left: 0;
+		}
+		.option{
+			height: 104/@r;
+			right: 0;
+			.glyphicon-option-horizontal{
+				font-size:46/@r;
+				vertical-align: middle;
+			}
+		}
+	}
+	#banner{
+		img{
+			width: 750/@r;
+			height: 420/@r;
+		}
+	}
+	#teamTitle{
+		margin-top: 28/@r;
+		font-size: 32/@r;
+		text-align: center;
+		line-height: 66/@r;
+		color: #454545;
+		font-weight: bold;
+	}
+
+	#teanNum{
+		height: 146/@r;
+		background: #f3f3f3;
+		padding: 28/@r 68/@r 22/@r 72/@r;
+		box-sizing: border-box;
+		img{
+			width: 94/@r;
+			border-radius: 50%;
+			margin-right: 36/@r;
+		}
+		.num{
+			display: inline-block;
+			span:nth-child(1){
+				font-size: 26/@r;
+				display: block;
+				font-weight: bold;
+				line-height: 48/@r;
+			}
+			span:nth-child(2){
+				font-size: 24/@r;
+				display: block;
+				line-height: 46/@r;
+				color: #68717a;
+			}
+		}
+		.information{
+			float: right;
+			height: 40/@r;
+			line-height: 40/@r;
+			background: #124191;
+			padding-left: 14/@r;
+			padding-right: 10/@r;
+			margin-top: 26/@r;
+			a{
+				display: block;
+				height: 100%;
+				color: #fff;
+				font-size: 20/@r;
+				line-height: 40/@r;
+				.glyphicon-edit{
+					font-size: 22/@r;
+					margin-right: 10/@r;
+				}
+				.edit{
+					color: #fff;
+					font-size: 20/@r;
+				}
+			}
+		}
+	}
+	#teanList {
+		width: 617/@r;
+		margin: 0 auto;
+		height: 301/@r;
+		position: relative;
+		.title{
+			position: relative;
+			margin-top: 38/@r;
+			line-height: 56/@r;
+			font-size: 24/@r;
+			color: #fff;
+			background: #009df6;
+			width: 172/@r;
+		    text-align: center;
+		    margin-bottom: 34/@r;
+		}
+		.square{
+				width: 0;
+				height: 0;
+				position: absolute;
+				top: 0;
+				left: 172/@r;
+				border: 28/@r solid transparent;
+				border-left-color: #009df6;
+		}
+		.content{
+			.item{
+				float: left;
+				margin-right: 46/@r;
+				font-size: 24/@r;
+				color: #68717a;
+				img{
+					width: 118/@r;
+					height: 120/@r;
+					margin-bottom: 1px;
+				}
+				div{
+					line-height: 54/@r;
+					text-align: center;
+				}
+			}
+			.item:last-child{
+				margin-right: 0;
+			}
+		}
+	}
+
+	#footer{
+		width: 100%;
+		height: 242/@r;
+		background: url("../images/myTeambg.png");
+		background-size: cover;
+		.mystery{
+			display: inline-block;
+			width: 520/@r;
+			margin-top:44/@r;
+			margin-left: 112/@r;
+			line-height: 76/@r;
+			font-size: 32/@r;
+			color: #fff;
+			padding-left: 150/@r;
+			box-sizing: border-box;
+			background: #124191;
+			border-radius: 5/@r;
+			img{
+				width: 76/@r;
+				height: 30/@r;
+				margin-top: 26/@r;
+				margin-right: 26/@r;
+			}
+		}
+
+	}
+}
