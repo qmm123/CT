@@ -1,0 +1,160 @@
+@r:50rem;
+
+body {
+  margin:0;
+}
+a {
+	text-decoration :none;
+}
+
+img {
+	vertical-align: top;
+}
+
+::-webkit-input-placeholder{
+	color: #fff;
+}
+
+ul,li{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+
+/*头部区域*/
+
+#gameRule {
+	#header {
+		height: 84/@r;
+		background: #000;
+		position:relative;
+		text-align: center;
+		color: #fff;
+		line-height: 84/@r;
+		font-size: 34/@r;
+		a{
+			position:absolute;
+			top:0;
+			width:133/@r;
+			height:84/@r;
+			color: #fff;
+			text-align:center;
+			line-height: 84/@r;
+			font-size:30/@r;
+			.glyphicon-menu-left{
+				font-size:39/@r;
+				vertical-align:middle;
+				margin-top: -2px;
+			}
+		}
+		.back{
+			left: 0;
+		}
+		.option{
+			height: 104/@r;
+			right: 0;
+			.glyphicon-option-horizontal{
+				font-size:46/@r;
+				vertical-align: middle;
+			}
+		}
+	}
+	#map{
+		text-align: center;
+		.text{
+			font-size: 24/@r;
+			font-weight: bold;
+			line-height: 96/@r;
+			margin-top: 10/@r;
+		}
+		.img{
+			width: 644/@r;
+			height: 452/@r;
+			margin-left: 52/@r;
+			margin-bottom: 42/@r;
+			img{
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+	#task{
+		padding-top: 42/@r;
+
+		ul{
+			li{
+				a{
+					.title{
+						position: relative;
+						margin-bottom: 20/@r;
+						.square{
+							display: inline-block;
+							width: 18/@r;
+							height: 18/@r;
+							background: #009df6;
+							border-radius: 50%;
+							margin-right: 32/@r;
+							margin-left: 70/@r;
+						}
+						.text{
+							font-size: 28/@r;
+							color: #666;
+							line-height: 60/@r;
+							font-weight: bold;
+						}
+						.nums{
+							float: right;
+							position: relative;
+							margin-right: 80/@r;
+						}
+						.num{
+							font-size: 22/@r;
+							color: #fff;
+							line-height: 30/@r;
+							padding-left: 6/@r;
+							padding-right: 9/@r;
+							background: #009df6;
+						}
+					}
+				}
+				.content{
+					display: none;
+					img{
+						width: 644/@r;
+						margin-left: 70/@r;
+						padding: 5/@r;
+					}
+					.c-text{
+						width: 644/@r;
+						margin-left: 70/@r;
+						font-size: 20/@r;
+						.text-title{
+							font-size: 26/@r;
+							color: #68717a;
+							font-weight: bold;
+						}
+						p{
+							font-size: 24/@r;
+							color: #999;
+							line-height: 1.5;
+							text-indent: 2em;
+							.strong{
+								color: #666;
+								font-weight: bold;
+							}
+							.red{
+								color: red;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	#footer{
+		width: 100%;
+		height: 208/@r;
+		background: url("../images/myTeambg.png");
+		background-size: cover;
+	}
+}

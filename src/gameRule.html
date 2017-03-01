@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="styles/css/bootstrap.css">
+	<link rel="stylesheet" href="styles/gameRule.css">
+	<script>
+		var html = document.documentElement;
+		var hWidth = html.getBoundingClientRect().width;
+		html.style.fontSize = hWidth/15 + "px";
+		console.log(hWidth)
+	</script>
+</head>
+<body>
+	<div id="gameRule">
+		<!--头部区域-->
+		<header id="header">
+			<a href="javascript:;" class="back"><span class="glyphicon glyphicon-menu-left"></span>返回</a>游戏规则<a class="option"><span class="glyphicon glyphicon-option-horizontal"></span></a>
+		</header>
+		<!--/头部区域-->
+		<!--地图-->
+			<section id="map">
+				<div class="text">在以下地点拍照，上传照片签到，最先完成所有任务获胜</div>
+				<div class="img"><img src="images/map.jpg" alt=""></div>
+			</section>
+		<!--地图-->
+		<!--任务-->
+		<section id="task">
+			<ul>
+				<li>
+					<a href="javascript:;">
+						<div class="title">
+							<span class="square"></span><span class="text">任务1：【象山六巨石】</span><div class="nums"><span class="num">点击展开</span><span class="numS"></span></div>
+						</div>
+					</a>
+					<div class="content">
+							<img src="images/mapTask1.png" alt="">
+							<div class="c-text">
+								<ul>
+									<li><span class="text-title">任务</span><p>找到象山六巨石景观平台，请在安全的地区拍摄团体照，照片需有巨石、101大楼、小队队旗、全体组员。</p></li>
+									<li><span class="text-title">特色</span><p>象山因外形似象头而得名，位于台北盆地东南方的信义区，六巨石象山上巨石林立的奇特景象，又称老莱峡。从这里攀上巨石可以一览繁华的信义商圈，是一处热门的拍照景点。</p></li>
+									<li><span class="text-title">交通</span><p>登山口：台北市信义区信义路五段150巷2号(环球世贸大楼旁巷子)，从登山口出发需花费30分钟左右抵达六巨石，沿路是上坡阶梯，请留意安全。</p></li>
+								</ul>
+							</div>
+						</div>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<div class="title">
+							<span class="square"></span><span class="text">任务2：【101大楼 风阻尼球】</span><div class="nums"><span class="num">点击展开</span><span class="numS"></span></div>
+						</div>
+					</a>
+					<div class="content">
+							<img src="images/mapTask2.png" alt="">
+							<div class="c-text">
+								<ul>
+									<li><span class="text-title">任务</span><p>前往101大楼，搭上世界第二高速的电梯抵达89楼的景观台，找到风阻尼球拍摄团体照，照片需有风阻尼球、小队队旗、全体组员。。</p></li>
+									<li><span class="text-title">特色</span><p>台北101观景台的风阻尼球 (Wind Damper)，是世界第二大，直径达5.5公尺，总重量达660公吨，唯一外露供参观的风阻尼球；由41层厚达12.5公分的钢板焊接而成，是台北101大楼防风抗震的重要结构之一。</p></li>
+									<li><span class="text-title">交通</span><p>购票处：台北市信义区信义路五段7号5楼。</p></li>
+								</ul>
+							</div>
+					</div>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<div class="title">
+							<span class="square"></span><span class="text">任务3：【永康街 思慕昔芒果冰】</span><div class="nums"><span class="num">点击展开</span><span class="numS"></span></div>
+						</div>
+					</a>
+					<div class="content">
+							<img src="images/mapTask3.png" alt="">
+							<div class="c-text">
+								<ul>
+									<li><span class="text-title">任务</span><p>前往东门站永康国际美食街，找到思慕昔冰店，每组<span class="strong">至少品尝两碗超级雪酪芒果雪花冰</span>。拍摄团体照，照片需有思慕昔招牌、小队队旗、全体组员、<span class="red">盘底朝天</span>。</p></li>
+									<li><span class="text-title">特色</span><p>引领健康冻饮潮流"Smoothie"鲜果昔，由产地直送多种天然新鲜水果加上独家秘方调至而成，奶昔般的圆润口感兼具美味及营养的自然概念，让吃过的人都无法忘怀。</p></li>
+									<li><span class="text-title">交通</span><p>本馆：东门站 永康街15号
+二馆：东门站 丽水街16号</p></li>
+								</ul>
+							</div>
+					</div>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<div class="title">
+							<span class="square"></span><span class="text">任务4：【胡须张卤肉饭】</span><div class="nums"><span class="num">点击展开</span><span class="numS"></span></div>
+						</div>
+					</a>
+					<div class="content">
+							<img src="images/mapTask4.png" alt="">
+							<div class="c-text">
+								<ul>
+									<li><span class="text-title">任务</span><p>找到胡须张卤肉饭，小组<span class="strong">每人至少品尝一碗卤肉饭</span>。拍摄团体照，照片需有胡须张招牌、小队队旗、全体组员、<span class="red">碗底朝天</span>。</p></li>
+									<li><span class="text-title">特色</span><p>台湾俗语说：『哪家厨房烟囱有冒烟，那里就有卤肉饭』，这个低调美食受欢迎的程度一点都不夸张。胡须张秉持「体验细腻台湾味」精神，严选优质农产品，使用100%台湾米、蔬菜肉品定期快筛检验，让您安心享用美味。</p></li>
+									<li><span class="text-title">交通</span><p>中正纪念堂至象山沿线有南昌店、东门店、大安店、通化店、北医店。请自由选择店家。</p></li>
+								</ul>
+							</div>
+					</div>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<div class="title">
+							<span class="square"></span><span class="text">任务5：【自由广场 跳跃飞扬】</span><div class="nums"><span class="num">点击展开</span><span class="numS"></span></div>
+						</div>
+					</a>
+					<div class="content">
+							<img src="images/mapTask5.png" alt="">
+							<div class="c-text">
+								<ul>
+									<li><span class="text-title">任务</span><p>请找到自由广场牌楼，以牌楼为背景拍摄团体跳跃照，小组队员必须一起跳耀离开地球表面。照片需有小队队旗、全体组员、一同跳跃腾空的画面。</p></li>
+									<li><span class="text-title">特色</span><p>中正纪念堂是一座为纪念故前中华民国总统蒋中正而兴建的建筑，也是众多纪念蒋中正总统的建筑中规模最大者。牌楼高30公尺，是台北市区内最大的牌楼。</p></li>
+									<li><span class="text-title">交通</span><p>地址：台北市中正区中山南路21号</p></li>
+								</ul>
+							</div>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<footer id="footer"></footer>
+		<!--/任务-->
+	</div>
+	<script src="scripts/jquery/jquery.min.js"></script>
+	<script>
+		$(function(){
+			$("#task").find("a").click(function(){
+				$(this).next().toggle(1000);
+			});
+		})
+	</script>
+</body>
+</html>
+
+
+
+
+
+
